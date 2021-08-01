@@ -1,0 +1,58 @@
+.container#content {
+  margin-top: 60px;
+}
+
+#content {
+  min-height: calc(100vh - 40px);
+}
+
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+}
+
+:root {
+  scrollbar-color: #17a2b8 $desert !important;
+  scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px $desert;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #17a2b8;
+  border-radius: 10px;
+}
+
+a {
+  color: #17a2b8;
+  &:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  line-height: 1;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  &:hover {
+    color: #007bff;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+

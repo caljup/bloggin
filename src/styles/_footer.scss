@@ -1,0 +1,38 @@
+.site-footer {
+  background-color: $light-gray;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+ul.horizontal-list-social {
+  li {
+    display: inline;
+    a {
+      color: $dark-gray;
+
+      &:hover .instagram {
+        color: #e95950;
+      }
+      &:hover .facebook{
+        color: rgb(66, 103, 178);
+      }
+      &:hover .twitter{
+        color: rgb(56, 161, 243);
+      }
+      &:hover .google{
+        color: rgb(221, 75, 57);
+      }
+      &:hover .linkedin{
+        color: rgb(0, 119, 181);
+      }
+      &:hover .github{
+        color: rgb(148, 0, 211);
+      }
+    }
+  }
+}

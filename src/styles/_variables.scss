@@ -1,0 +1,47 @@
+$site-font: 'Brawler', serif;
+
+$light-gray: rgba(185, 164, 131, 0.76);
+$dark-gray: rgb(80, 80, 80);
+$desert: rgba(230, 209, 179, 0.767);
+
+.round-up {
+    font-family: 'Lobster', serif;
+}
+
+.rodeo-round-up {
+    font-family: 'Lobster', serif;
+    font-size: 600%;
+}
+
+.rodeo-round-up-navbar {
+ font-family: 'Lobster', 'serif';
+}
+
+.little-rodeo-round-up {
+    font-family: 'Lobster', serif;
+    font-size: 150%;
+}
+
+.were-going-home {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .disappear {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width: 1000px) {
+    .rodeo-round-up {
+        font-family: 'Lobster', serif;
+        font-size: 450%;
+    } 
+}
+
+@media only screen and (max-width: 740px) {
+    .rodeo-round-up {
+        font-family: 'Lobster', serif;
+        font-size: 300%;
+    }
+}

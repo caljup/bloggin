@@ -1,0 +1,25 @@
+.rodeo-feed-item {
+    margin-bottom: 20px;
+}
+
+.rodeo-feed-images {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 16px;
+    vertical-align: text-top;
+    border-radius: 7px;
+}
+
+.rodeo-feed-title {
+    //white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.column-feed {
+    display: inline-flex;
+    float: left;
+    flex-wrap: wrap;
+    width: 100%;
+}

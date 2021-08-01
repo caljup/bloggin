@@ -1,0 +1,27 @@
+.article-social {
+  text-align: center;
+}
+
+ul.sharing-list-social {
+  li {
+    display: inline;
+    &:hover .instagram {
+      color: #e95950;
+    }
+    &:hover .facebook{
+      color: rgb(66, 103, 178);
+    }
+    &:hover .twitter{
+      color: rgb(56, 161, 243);
+    }
+    &:hover .google{
+      color: rgb(221, 75, 57);
+    }
+    &:hover .linkedin{
+      color: rgb(0, 119, 181);
+    }
+    &:hover .github{
+      color: rgb(148, 0, 211);
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.about-me-coloring {
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tomb {
+    background-image: url("../images/bigtomb.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+}
+
+.take-a-seat {
+    width: 100%;
+    height: 400px;
+}
+
+
+.old-man {
+    background-image: url("../images/rootin-tootin.png"), url("../images/theguy.png"), url("../images/bottle.png") ;
+    background-position: right bottom, 5% 0%, 95% 0%;
+    background-repeat: no-repeat;
+    padding-left: 0px, 100px;
+    background-size: 25%, 10%, 20%;
+}
+
+.my-face {
+    background-image: url("../images/myface.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 28%; 
+}
+
+.image-block {
+    height: 500px;
+    width: 100%;
+}
+
+.about-me-description {
+    text-align: center;
+}
+
+.cartoonish {
+    background-image: url("../images/cartoonish.png");
+    background-position: 35% 45%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+ul.about-me-list {
+	line-height: 1.5em;
+	margin: 5px 0 15px;
+    padding: 0;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	li {
+		list-style: none;
+		position: relative;
+        padding: 0 0 0 20px;
+        &::marker {
+            font-size: 20px;
+        }
+        &::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10px;
+			height: 5px;
+			width: 5px;
+			border: 1px solid;
+			border-width: 2px 2px 0 0;
+            transform: rotate(45deg);
+		}
+	}
+}
+
+.doink-doom {
+    background-image: url('../images/doink.png'), url('../images/doom.png');
+    background-position: 10% 35%, 90% 35%;
+    background-repeat: no-repeat;
+    background-size: 20%, 20%;
+}
+
+.backyard{
+    background-image: url("../images/backyard.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .tomb {
+        background-image: url("../images/bigtomb.png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .my-face {
+        background-image: url("../images/myface.png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 40%;
+    }
+
+    .doink-doom {
+        background-image: url('../images/doink.png'), url('../images/doom.png');
+        background-position: 10% 10%, 90% 10%;
+        background-repeat: no-repeat;
+        background-size: 25%, 25%;
+    }
+
+    .cartoonish {
+        background-image: url("../images/cartoonish.png");
+        background-position: 35% 45%;
+        background-repeat: no-repeat;
+        background-size: 75%;
+        height: 300px;
+    }
+
+    .backyard{
+        background-image: url("../images/backyard.jpg");
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        text-align: center;
+    }
+}
+
